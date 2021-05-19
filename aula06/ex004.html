@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Qual é o seu nome? ");
+        document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br>`);
+        document.write(`Seu nome em letras maiúsculas ${nome.toUpperCase()}<br>`);
+        document.write(`Seu nome em letras menúsculas ${nome.toLowerCase()}`);
+
+        /*
+        var n = 1543.5;
+        n.toFixed(2); //delimitar o número de casas decimais depois da vírgula.
+
+        n.toFixed(2).replace(".", ","); //trocar algum elemento
+
+        n.toLocaleString("pt-br", {style: "currency", currency: "BRL"}); //colocando R$
+        */
+    </script>
+</body>
+</html>
