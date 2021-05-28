@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De que país você é?</title>
+</head>
+<body>
+    <h1> De que país você é?</h1>
+
+    Informe seu país: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="validarPais()">
+    
+    <div id="res"></div>
+    
+    <script>
+        function validarPais() {
+            var txtpais = window.document.querySelector("input#txtpais");
+            var res = window.document.querySelector("div#res");
+    
+            res.innerHTML = `Vivendo em <strong>${txtpais.value}</strong>`;
+    
+            if(txtpais.value == "Brasil") {
+                res.innerHTML += `<p>Quem é do ${txtpais.value} é Brasileiro!</p>`;
+            } else{
+                res.innerHTML += `<p>Estrangeiro!<p>`;
+            }
+        }
+
+        
+        
+    </script>
+</body>
+</html>
