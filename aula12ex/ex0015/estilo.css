@@ -1,0 +1,28 @@
+body {
+    background: rgb(151, 131, 240);
+    font: normal 15pt Verdana;
+}
+
+header {
+    color: rgb(240, 194, 11);
+    text-align: center;
+}
+
+section {
+    background-color:burlywood;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.413);
+}
+
+div {
+    text-align: left;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(240, 194, 11);
+}
