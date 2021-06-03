@@ -11,14 +11,14 @@ header {
 section {
     background: white;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.406);
+    margin: auto;
     padding: 15px;
     width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.406);
 }
 
 footer {
     color:white;
-    text-align: center;
     font-style: italic;
+    text-align: center;
 }
