@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(43, 67, 68);
+    color: black;
+    font-style: normal 20px Arial;
+}
+
+header {
+    text-align: center;
+    color: coral;
+}
+
+section {
+    background-color: rgb(194, 189, 189);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+}
+
+select#flista {
+    width: 150px;
+}
+
+div {
+    text-align: justify;
+}
+
+footer {
+    color: rgb(211, 114, 45);
+    font-style: italic;
+    text-align: center;
+}
